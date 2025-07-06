@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; padding: 0;box-sizing: border-box
+            
+            
+        }
+        body{
+            background-color:black;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bolder;
+            overflow: hidden;
+
+        }
+        h2{
+            text-transform: capitalize;
+            color: rgb(222, 240, 172);
+            text-align: center;
+            font-style: initial;
+            z-index: 5;
+            font-size: 30PX;
+    
+            
+        }
+        h3{
+            text-transform: capitalize;
+            color: rgba(245, 240, 175, 0.932);
+            text-align: center;
+            font-style: initial;
+            z-index: 5;
+            font-size: 30PX;
+
+        }
+        h4{
+            text-transform: none;
+            color: rgb(244, 250, 187);
+            text-align: center;
+            font-style: oblique;
+            font-size: 11PX;
+            z-index: 5;
+
+        }
+        .op{
+            text-transform: capitalize;
+            color: rgb(248, 248, 241);
+            font-size: larger;
+            font-style: initial;
+            z-index: 5;
+
+        }
+        .k{
+            margin-top:200px ;
+        }
+        .l{
+           margin-top: 50px;
+        }
+        .glow{
+            text-shadow: 0 0 7PX rgb(179, 194, 47);
+            
+        }
+        .ABS{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+
+            
+        }
+        .UP{
+            width: 60%;
+            height: 150%;
+            border-radius: 100%;
+            background-color: rgba(0, 0, 0, 0.007);
+            box-shadow: inset 0px 0px 40px 5px rgb(236, 235, 129), 0px 0px 10px rgb(227, 235, 114);
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -97%);
+            transition: 0.4S ease-in-out;
+
+            &:HOVER{
+                width: 80%;
+                height: 230%;
+            }
+        }
+        .DOWN{
+            width: 55%;
+            height: 150%;
+            background-color:rgba(0, 0, 0, 0.034);
+            box-shadow: inset 0px 0px 40px 5px rgb(210, 233, 109), 0px 0px 10px rgb(236, 245, 110);
+
+            border-radius: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 43%);
+            transition: 0.4S ease-in-out;
+
+            &:hover{
+                width: 60%;
+                height: 160%;
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <Div class="ABS">
+        <DIv class="UP"></DIv>
+        <DIV class="DOWN"></DIV>
+    </Div>
+    <div class="k">
+    <h2>introducing</h2>
+    <h2 class="glow">illuminated glow text.</h2>
+    <h3>highlight the main focus text</h3>
+    </div>
+    <div class="l">
+    <h4>experience a new way to draw attention to key</h4>
+    <h4>elements with stunning
+    <span class="op">illuminated text.</span>
+    perfect for</h4>
+    <h4>making a bold statement, this dynamic design ensures</h4>
+    <h4>your content stands out effortlessly.</h4>
+    </div>
+</body>
+</html>
